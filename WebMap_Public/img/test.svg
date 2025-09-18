@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><foreignObject x="0" y="0" width="100%" height="100%"><body xmlns="http://www.w3.org/1999/xhtml">
+  <style>
+    html,body{
+      height: 100%;
+      margin: 0;
+      text-align: center;
+	  font-family: sans-serif;
+    }
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    strong{
+      position: absolute;
+      bottom: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-transform: uppercase;
+      background-color: #ff000045;
+      color: white;
+      padding: 0px 2px;
+      border-radius: 10px;
+      font-size: 12px;
+      box-sizing: border-box;
+      max-width: 100%;
+      width: max-content;
+      height: 16px;
+      line-height: 16px;
+      word-break: break-all;
+      overflow: hidden;
+    }
+  </style>
+  <strong>local</strong>
+  <img src='data:image/png;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAD4+P74+P74+P74+P74+P7p6u+Bw+lksduIrlilwoHq6u74+P74+P74+P74+P74+P74+P74+P74+P74+P7n6vFYr98MnexdsNyDqlBhnxCJr1jo6uv4+P74+P74+P74+P5+ceCblNz4+P7m6vE+quQMnewNnu1dsN2CqlBgnxFgnxB8q0Dp6uz4+P7FrLe9mqgqDtwrC9t1atLT2uMopOgMnewMnu1dsN2DqlBhnxFgnhBwpSva3Nq/m6mXTWWaV2wqDdwqCtwqCdxhUdbK1uY6qOQMnexdsN2CqlBgnhB5qTzW2tGsfo2WSmOWSmKbVmwqDdwqCtwqCtwqCNtNOdnLz+ZRrd9fsN2Fq1OHr1Ta1teka36WSmKXS2KXS2KbVmwqDdsqCtsqCtsqCtsqCds/JtrEwuXR2uPV2tLYzdOgX3WVSWKXS2KXS2KXS2KbVmsqDdsqCtsqCtsqCtsqCtsqCdszFtu+u+fZy9OaVGuXS2OXS2OXS2OXS2OXS2ObV2wqDdwqCtwqCtwqCtwqCtwqCtwqCdtxY9Osg5GWSmKXS2KXS2KXS2KXS2KXS2KbVmwqDdwqCtwqCtwqCtwqCtwqCds3G9uopsrAtbqdWW+WSmOXS2OXS2OXS2OXS2ObV2wqDdsqCtsqCtsqCtsqCdtELNrJx+asrK6srK3p4OihZHmWSmKXS2KXS2KXS2KbVmwqDdwqCtwqCtwqCdtVQdjh4fLp6e2rq62qqqz4+P7q5+ync4WWSmOWSmOXS2ObV2wqDdwqCtwqCdtoWtXn5/D4+P6xsbPj4+fi4ueysrP4+P7q6e6vhpSWSmKWSmKaVmwrDtwsDNt/ddHq6u/4+P7o6Oybm5v4+P74+P6qqqvo6O34+P7q6u/DpbKXTWaaV22GeuGkn9v4+P74+P74+P6cnJzo6O34+P74+P7o6Oypqar4+P74+P74+P7ItL2xkJz4+P74+P74+P74+P7Dw8bLy874+P74+P74+P74+P66urvHx8r4+P74+P74+P74+P4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'></img>
+  </body></foreignObject></svg>
