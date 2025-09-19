@@ -1,5 +1,3 @@
-//D:\Code\MyACTi_dev\MyACTi3.0\Admin\ACTi_V3\Masterpage\JavaScript\Backend.js
-
 $(document).ready(function () {
     // 優先從 localStorage 讀取資料
     const obj_arr = get_array();
