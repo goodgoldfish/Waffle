@@ -4,6 +4,20 @@
 	from { opacity: 1; }	
 	to { opacity: 0.5; }
 }
+@keyframes flashURL {
+	0% {
+        border-color: red;
+    }
+    20% {
+        border-color: orange;
+    }
+    50% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: violet;
+    }
+}
 /* Q彈水果 */
 @keyframes gelatine {
   from, to { transform: scale(1, 1); }
@@ -290,6 +304,15 @@ td.u1F95E>a:after {
     z-index: -1;
 	right: 0;
 }
+td.flashURL > a{
+	color: red !important;
+	font-weight: 800; 
+	border: 6px dotted red;
+    border-radius: 20px;
+    padding: 0 8px !important;
+    animation: flashURL 500ms ease infinite;
+}
+
 /*給沒放title的page一個特殊動畫 它是用p，比較特別一點*/
 td.noTitle > p{
 	color: gray !important;
