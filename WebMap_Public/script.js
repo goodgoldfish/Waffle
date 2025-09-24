@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 優先從 localStorage 讀取資料
     const obj_arr = get_array();
-    const first_page = 3;
+    const first_page = 4;
     var csslink = $('link[rel=stylesheet]').attr('href');
 	
     // Check if the current page is a setting page, and initialize the jsonInput textarea
@@ -55,8 +55,8 @@ $(document).ready(function () {
                        .addClass(eachPage.Title ? "" : "noTitle")
                        .appendTo(tr_page);
                }
-               else if(eachClass.id === 3){
-                   // aws shorter url
+               else if(eachClass.platform === '3_column'){
+                   // shorter url
                    $(`<td><a href="${eachClass.url_header_release}/${eachPage.url_type}/${eachPage.url}" target="_blank">${eachPage.Title}</a><button class="copy-button">點我複製</button></td>`)
                        .addClass(eachPage.hightlight)
                        .appendTo(tr_page);
@@ -65,14 +65,13 @@ $(document).ready(function () {
                        .addClass('local-link')
                        .addClass(eachPage.hightlight)
                        .appendTo(tr_page);
-                   //ACTi3.0 指定正式機Layer版本
+                   // full link
                    $(`<td><a href="${eachClass.url_header_layer}type=${eachPage.url_type}&product=${eachPage.url}" target="_blank">${eachPage.Title} (full url)</a></td>`)
                        .addClass('full-link')
                        .addClass(eachPage.hightlight)
                        .appendTo(tr_page);
                }
-               else if(eachClass.id === 6){
-                   //乾脆另外獨立一個list算了，反正它整個都跟page的其他人無關
+               else if(eachClass.platform === '1_column'){
                    let _Title = eachPage.Title ? eachPage.Title:"請輸入文本 "
                    $(`<td><a href="${eachClass.url_header_release + eachPage.url}" target="_blank">${_Title}</a><button class="copy-button">點我複製</button></td>`)
                        .addClass(eachPage.hightlight)
