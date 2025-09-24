@@ -165,7 +165,6 @@ table.page-class{
 }
 table.page-class td {
   margin: 0 5px;
-  width: calc(100% / 2 - 10px);
   float: left;
   line-height: 32px;
   overflow: hidden;
@@ -175,11 +174,13 @@ table.page-class td {
   border-image-slice: 1;
 }
 /* special style */
-table.class_ACTi3_0 td {
+table[platform="3_column"] td {
   width: calc(100% / 3 - 15px);
 }
-
-table.class_Note td,table.class_Setting td {
+table[platform="2_column"] td {
+  width: calc(100% / 2 - 10px);
+}
+table[platform="1_column"] td,table.class_Setting td  {
   width: calc(100% - 15px);
 }
 table.page-class td > a {
