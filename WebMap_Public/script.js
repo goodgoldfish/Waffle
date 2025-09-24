@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 優先從 localStorage 讀取資料
     const obj_arr = get_array();
-    const first_page = 4;
+    const first_page = 3;
     var csslink = $('link[rel=stylesheet]').attr('href');
 	
     // Check if the current page is a setting page, and initialize the jsonInput textarea
@@ -12,7 +12,7 @@ $(document).ready(function () {
             $('#jsonInput').val(storedJson);
             $('#resetJsonButton').show();
         } else {
-            $('#jsonInput').val('localStorage中沒有資料，請貼上 JSON 字串並點擊「確定讀取」按鈕以儲存。');
+            $('#errorMessage').text('localStorage中沒有資料，請貼上 JSON 字串並點擊「確定讀取」按鈕以儲存。');
             $('#resetJsonButton').hide();
         }
     }
